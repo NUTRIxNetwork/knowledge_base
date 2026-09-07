@@ -122,17 +122,6 @@ doctoral candidates across nutrition, epidemiology, and data science.
     *Network role:* coordinates the 2027 meeting; experience organising scientific
     conferences (e.g. DGE)
 
-- __Dr. Anna Reik__
-
-    Institute for Nutritional Medicine, School of Medicine and Health, Technical
-    University of Munich
-
-    *Research interests:* longitudinal data, postprandial metabolism, clinical
-    trials, precision nutrition
-
-    *Network role:* co-organises the 2027 meeting; expertise in FAIR data practices and
-    applying ML in nutritional intervention studies
-
 - __Jun.-Prof. Dr. Marie-Christin Simon__
 
     Institute of Nutrition and Food Science, University of Bonn; Fraunhofer
