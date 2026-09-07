@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="NUTRIx emblem">
+  <title>NUTRIx emblem</title>
+  <!-- outer broken ring -->
+  <circle cx="50" cy="52" r="43" fill="none" stroke="#1a3a5c" stroke-width="5"
+          stroke-linecap="round" stroke-dasharray="214 56" transform="rotate(-58 50 52)"/>
+  <!-- inner thin teal ring -->
+  <circle cx="50" cy="52" r="34" fill="none" stroke="#2c9aa0" stroke-width="2"
+          stroke-linecap="round" stroke-dasharray="180 34" transform="rotate(120 50 52)"/>
+  <!-- network edges -->
+  <g stroke="#2c9aa0" stroke-width="1.6" opacity="0.9">
+    <path d="M50 52 L34 38"/>
+    <path d="M50 52 L67 40"/>
+    <path d="M50 52 L32 60"/>
+    <path d="M50 52 L52 72"/>
+    <path d="M50 52 L68 63"/>
+    <path d="M34 38 L52 30"/>
+    <path d="M67 40 L52 30"/>
+    <path d="M32 60 L40 76"/>
+    <path d="M52 72 L68 63"/>
+  </g>
+  <!-- network nodes -->
+  <circle cx="50" cy="52" r="5.2" fill="#e8623d"/>
+  <circle cx="34" cy="38" r="4.2" fill="#2c9aa0"/>
+  <circle cx="67" cy="40" r="4.6" fill="#1a3a5c"/>
+  <circle cx="52" cy="30" r="3" fill="#e8623d"/>
+  <circle cx="32" cy="60" r="4" fill="#1a3a5c"/>
+  <circle cx="40" cy="76" r="3.2" fill="#2c9aa0"/>
+  <circle cx="52" cy="72" r="3.4" fill="#1a3a5c"/>
+  <circle cx="68" cy="63" r="3.2" fill="#2c9aa0"/>
+  <!-- leaf -->
+  <g transform="rotate(18 70 22)">
+    <path d="M70 6 C82 10 86 26 74 38 C62 34 58 18 70 6 Z" fill="#2c9aa0"/>
+    <path d="M71 9 C70 20 71 30 74 36" fill="none" stroke="#ffffff" stroke-width="1.4" opacity="0.7"/>
+  </g>
+</svg>
