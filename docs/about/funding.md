@@ -10,11 +10,9 @@ Foundation)** as a **Scientific Network** (*Wissenschaftliches Netzwerk*).
 
 | | |
 |---|---|
-| Funding body | Deutsche Forschungsgemeinschaft (DFG) |
-| Instrument | Scientific Network (DFG form 53.15) |
+| Funding body | German Research Foundation (DFG) |
 | Duration | 1 January 2027 – 31 December 2029 |
 | Coordinators | Dr. Mattea Müller (Hannover Medical School); Dr. Fabian Eichelmann (DIfE Potsdam-Rehbrücke) |
-| Grant number | *to be added* |
 
 The 2024 spring school on machine learning in nutrition that seeded the network
 was funded by the **Joachim Herz Foundation**. The 2027 in-person meeting in
@@ -27,7 +25,7 @@ Atlanta is hosted at the Joachim Herz House and organised together with the
     Suggested acknowledgement for publications and outputs:
 
     > This work was funded by the Deutsche Forschungsgemeinschaft (DFG, German
-    > Research Foundation) — project number *[to be added]*.
+    > Research Foundation) — project number *595473540*.
 
 ## Licensing
 
