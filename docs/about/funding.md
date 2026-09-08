@@ -14,14 +14,10 @@ Foundation)** as a **Scientific Network** (*Wissenschaftliches Netzwerk*).
 | Duration | 1 January 2027 – 31 December 2029 |
 | Coordinators | Dr. Mattea Müller (Hannover Medical School); Dr. Fabian Eichelmann (DIfE Potsdam-Rehbrücke) |
 
-The 2024 spring school on machine learning in nutrition that seeded the network
-was funded by the **Joachim Herz Foundation**. The 2027 in-person meeting in
-Atlanta is hosted at the Joachim Herz House and organised together with the
-**NIH Precision Nutrition Training Programme**.
+
 
 ## Acknowledgement
 
-!!! note "Placeholder — confirm wording and grant number"
     Suggested acknowledgement for publications and outputs:
 
     > This work was funded by the Deutsche Forschungsgemeinschaft (DFG, German
