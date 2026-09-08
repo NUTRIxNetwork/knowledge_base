@@ -86,12 +86,16 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Meetings: meetings/index.md
   - About:
       - about/index.md
       - The network: about/network.md
       - Members: about/members.md
       - Funding: about/funding.md
+  - Meetings:
+      - meetings/index.md
+      - 2027 — Atlanta: meetings/2027-atlanta.md
+      - 2028 — Nuthetal: meetings/2028-nuthetal.md
+      - 2029 — Kiel: meetings/2029-kiel.md
   - Getting Started:
       - getting-started/index.md
       - Quickstart: getting-started/quickstart.md

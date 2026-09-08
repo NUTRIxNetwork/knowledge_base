@@ -148,3 +148,96 @@
 [data-md-color-scheme="slate"] .nx-cta {
   background: rgba(255, 255, 255, 0.04);
 }
+
+/* ============================================================
+   Member directory
+   ============================================================ */
+
+.nx-members {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 1.1rem;
+  margin: 1.4rem 0;
+}
+
+.md-typeset .nx-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.4rem 1rem 1.1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.8rem;
+  background: var(--md-default-bg-color);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.md-typeset .nx-member:hover {
+  border-color: var(--nx-teal);
+  box-shadow: 0 0.4rem 1rem rgba(26, 58, 92, 0.12);
+  transform: translateY(-2px);
+}
+
+.md-typeset .nx-member img {
+  width: 6.5rem;
+  height: 6.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--md-default-fg-color--lightest);
+  border: 3px solid var(--nx-teal);
+  margin-bottom: 0.8rem;
+}
+
+.nx-member__name {
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--md-default-fg-color);
+}
+
+.nx-member__affil {
+  font-size: 0.72rem;
+  line-height: 1.4;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.3rem;
+}
+
+.nx-member__interests {
+  font-size: 0.75rem;
+  line-height: 1.45;
+  color: var(--md-default-fg-color--light);
+  margin-top: 0.55rem;
+}
+
+.nx-member__links {
+  margin-top: 0.7rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.9rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.72rem;
+}
+
+.md-typeset .nx-member__links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .nx-member__links a:hover {
+  color: var(--nx-teal-dark);
+}
+
+.md-typeset .nx-member__links img {
+  width: 0.95rem;
+  height: 0.95rem;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  background: none;
+}
+
+.nx-member__links .nx-tba {
+  color: var(--md-default-fg-color--lighter);
+}
