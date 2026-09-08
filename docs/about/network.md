@@ -49,15 +49,3 @@ The network concentrates on three interrelated areas:
 5. **Contribute to the wider community** through a symposium and a public online
    workshops and alignment with national and European infrastructures such as ELIXIR.
 
-######## Partnerships
-
-#NUTRIx works with the ELIXIR Food & Nutrition Community, NFDI4Health,
-#NFDI4Microbiota, NuGO (molecular nutrition, nutrigenomics, and bioinformatics
-#infrastructure), and the NIH Precision Nutrition Training Programme.
-
-######## Sustainability
-
-#Code, notebooks, and workflows are hosted under open-source licences and archived
-#with persistent DOIs via Zenodo, so they remain findable, citable, and reusable
-#beyond the funding period. The network aims to become an associated working group
-#within the DGE to maintain a visible community presence after the funding period.
