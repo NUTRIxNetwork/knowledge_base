@@ -5,16 +5,16 @@
 NUTRIx grew out of a spring school on machine learning in nutrition, funded by
 the Joachim Herz Foundation and organised by Mattea Müller and Jan Voges in 2024.
 Many of the network's members first met there and recognised a shared set of
-methodological challenges and opportunities for collaboration at the
+methodological challenges — and opportunities for collaboration — at the
 intersection of nutrition and data science.
 
 ## Rationale
 
 Nutrition science is inherently interdisciplinary and is undergoing a
 methodological transformation driven by digitalisation and high-dimensional data.
-Modern datasets digitised dietary intake records, continuous glucose and
+Modern datasets — digitised dietary intake records, continuous glucose and
 activity monitoring, metabolic and inflammatory biomarkers, and multi-omics
-layers (genomics, transcriptomics, proteomics, metabolomics, microbiome) open
+layers (genomics, transcriptomics, proteomics, metabolomics, microbiome) — open
 the way to a mechanistic, systems-level understanding of how diet influences
 health.
 
@@ -47,5 +47,6 @@ The network concentrates on three interrelated areas:
    international experts, and a transatlantic collaboration with the NIH Precision
    Nutrition Training Programme.
 5. **Contribute to the wider community** through a symposium and a public online
-   workshops and alignment with national and European infrastructures such as ELIXIR.
+   workshop, and through alignment with national and European infrastructures
+   such as ELIXIR.
 

@@ -6,7 +6,9 @@
 </figure>
 
 NUTRIx is funded by the **Deutsche Forschungsgemeinschaft (DFG, German Research
-Foundation)** as a **Scientific Network** (*Wissenschaftliches Netzwerk*). Additionally, the Joachim Herz Foundationen supports the first network meeting in Atlanta 2027 with additional 25 000€. 
+Foundation)** as a **Scientific Network** (*Wissenschaftliches Netzwerk*).
+Additionally, the Joachim Herz Foundation supports the network's first meeting,
+in Atlanta in 2027, with a further €25,000.
 
 | | |
 |---|---|
@@ -18,10 +20,10 @@ Foundation)** as a **Scientific Network** (*Wissenschaftliches Netzwerk*). Addit
 
 ## Acknowledgement
 
-    Suggested acknowledgement for publications and outputs:
+Suggested acknowledgement for publications and outputs:
 
-    > This work was funded by the Deutsche Forschungsgemeinschaft (DFG, German
-    > Research Foundation) — project number *595473540*. 
+> This work was funded by the Deutsche Forschungsgemeinschaft (DFG, German
+> Research Foundation) — project number 595473540.
 
 ## Licensing
 

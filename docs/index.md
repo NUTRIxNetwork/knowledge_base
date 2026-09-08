@@ -13,7 +13,7 @@ hide:
 
 NUTRIx is a network of early-career researchers working at the interface of
 nutrition, epidemiology, and data science. We meet, learn, and build a shared,
-openly licensed knowledge base of reproducible methods so that good
+openly licensed knowledge base of reproducible methods — so that good
 computational practice becomes part of everyday nutrition research.
 
 [Explore the knowledge base](getting-started/index.md){ .md-button .md-button--primary }
@@ -22,9 +22,9 @@ computational practice becomes part of everyday nutrition research.
 
 </div>
 
-## Welcome 
+## Welcome
 
-Nutrition science is being reshaped by digital tools and high-dimensional data
+Nutrition science is being reshaped by digital tools and high-dimensional data —
 digitised dietary records, continuous glucose and activity monitoring, metabolic
 and inflammatory biomarkers, and multi-omics layers such as the microbiome and
 metabolome. Making sense of these data takes computational skills that are still
