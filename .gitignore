@@ -76,3 +76,6 @@ Thumbs.db
 .Rhistory
 .RData
 .Rproj.user/
+
+# Claude Code local config
+.claude/
