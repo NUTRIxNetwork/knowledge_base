@@ -19,10 +19,6 @@ doctoral candidates across nutrition, epidemiology, and data science.
 
     *Research interests:* microbiome, metabolome, precision nutrition
 
-    *Network role:* co-coordinator; liaison to the ELIXIR Food & Nutrition
-    Community; contributes to the 2029 meeting and the knowledge base on multi-omics
-    integration and best practice in microbiome × diet studies
-
 - __Dr. Fabian Eichelmann__
 
     Department of Molecular Epidemiology, German Institute of Human Nutrition
@@ -31,8 +27,6 @@ doctoral candidates across nutrition, epidemiology, and data science.
     *Research interests:* multi-omics in cardiometabolic research, disease
     prediction and risk stratification, biomarker discovery and validation,
     cross-study omics integration, diet for prevention
-
-    *Network role:* co-coordinator; coordinates the 2028 meeting
 
 </div>
 
@@ -47,18 +41,11 @@ doctoral candidates across nutrition, epidemiology, and data science.
     *Research interests:* diet–microbiota interactions, metabolic health,
     precision nutrition
 
-    *Network role:* supports the 2029 meeting; input on multivariable association
-    analysis integrating omics and clinical markers with dietary data; member of
-    the NuGO Early Career Network
-
 - __Dr. Rebecca Dörner__
 
     Institute of Human Nutrition and Food Science, Kiel University
 
     *Research interests:* energy metabolism and metabolic phenotyping
-
-    *Network role:* supports the 2029 meeting; practical input on data preprocessing and
-    data overlay (metabolic-chamber gas exchange, postprandial and activity data)
 
 - __Sander Janssen, MSc__
 
@@ -68,8 +55,6 @@ doctoral candidates across nutrition, epidemiology, and data science.
     *Research interests:* early detection of diabetes mellitus and its
     complications; AI in clinical care
 
-    *Network role:* contributes to the 2027 meeting
-
 - __Dr. Kelly M. C. Jardon__
 
     Department of Nutrition, Exercise and Sports, University of Copenhagen
@@ -77,16 +62,11 @@ doctoral candidates across nutrition, epidemiology, and data science.
     *Research interests:* precision nutrition, cardiometabolic health, gut
     microbiota, multi-omics data integration in human intervention studies
 
-    *Network role:* supports the 2029 meeting
-
 - __Daniel Kirk, MSc__
 
     Department of Twin Research and Genetic Epidemiology, King's College London
 
     *Research interests:* machine learning, microbiome, metabolome, IBS, nutrition
-
-    *Network role:* contributes to the 2027 meeting; leads the hands-on ML pitfalls
-    workshop (stability, uncertainty, feature-selection stability)
 
 - __Dr. Stefan Konigorski__
 
@@ -97,8 +77,6 @@ doctoral candidates across nutrition, epidemiology, and data science.
     inference, N-of-1 trials, digital health; developer of the open-source
     [StudyU](https://studyu.health) platform
 
-    *Network role:* contributes to the 2028 meeting (DAG-based confounder adjustment;
-    N-of-1 trial design and analysis)
 
 - __Dr. Kristin Krüger__
 
@@ -108,8 +86,6 @@ doctoral candidates across nutrition, epidemiology, and data science.
     *Research interests:* dietary intake data, nutritional behaviour, nutrient
     intake and nutrient status
 
-    *Network role:* supports the 2028 meeting; coordinates access to the NVS II study;
-    input on collecting nutritional data and portion sizes in public databases
 
 - __Prof. Tilman Kühn__
 
@@ -119,8 +95,6 @@ doctoral candidates across nutrition, epidemiology, and data science.
     *Research interests:* plant-based diets and health, the global nutrition
     transition, nutrition after cancer and long-term health, nutrition policy
 
-    *Network role:* coordinates the 2027 meeting; experience organising scientific
-    conferences (e.g. DGE)
 
 - __Jun.-Prof. Dr. Marie-Christin Simon__
 
@@ -130,9 +104,6 @@ doctoral candidates across nutrition, epidemiology, and data science.
     *Research interests:* nutrition, computational microbiome, and brain health;
     randomised human intervention studies on synbiotics, dietary fibre, and
     postprandial metabolism
-
-    *Network role:* supports the 2029 meeting (integrating microbiome and metabolomics
-    data)
 
 - __Clarissa Spiegler, MSc__
 
@@ -154,9 +125,6 @@ doctoral candidates across nutrition, epidemiology, and data science.
     application in biomedicine; computational biology, machine learning,
     bioinformatics
 
-    *Network role:* supports the organisation of the 2027 meeting; co-organised the 2024
-    spring school from which the network emerged
-
 - __Jun.-Prof. Dr. Silvio Waschina__
 
     Research Group for Nutriinformatics, Institute of Human Nutrition and Food
@@ -166,7 +134,6 @@ doctoral candidates across nutrition, epidemiology, and data science.
     genome-scale metabolic modelling, systems biology, precision nutrition;
     developer of the open-source tool [gapseq](https://github.com/jotech/gapseq)
 
-    *Network role:* contributes to the 2029 meeting
 
 - __Prof. Helena U. Zacharias__
 
@@ -175,7 +142,6 @@ doctoral candidates across nutrition, epidemiology, and data science.
     *Research interests:* AI and data-science methods for multi-omics data
     analysis, with a focus on metabolomics; high-dimensional data analysis
 
-    *Network role:* coordinates the 2029 meeting
 
 </div>
 
