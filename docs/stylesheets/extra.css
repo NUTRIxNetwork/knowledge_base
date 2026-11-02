@@ -23,10 +23,16 @@
 }
 
 [data-md-color-scheme="default"] {
-  /* white masthead so the logo shows in its original colours */
-  --md-primary-fg-color: #ffffff;
-  --md-primary-fg-color--light: #ffffff;
-  --md-primary-fg-color--dark: #f1f0f5;
+  /* soft grey with a hint of the logo purple */
+  --md-default-bg-color: #eeedf3;
+  --md-default-bg-color--light: rgba(238, 237, 243, 0.54);
+  --md-default-bg-color--lighter: rgba(238, 237, 243, 0.26);
+  --md-default-bg-color--lightest: rgba(238, 237, 243, 0.07);
+  --md-code-bg-color: #e3e1ec;
+
+  --md-primary-fg-color: #e6e4ee;
+  --md-primary-fg-color--light: #eeedf3;
+  --md-primary-fg-color--dark: #d9d6e4;
   --md-primary-bg-color: var(--nx-grey-700);
   --md-primary-bg-color--light: rgba(74, 72, 86, 0.7);
 
@@ -34,19 +40,24 @@
   --md-accent-fg-color--transparent: rgba(120, 0, 255, 0.08);
 
   --md-typeset-a-color: var(--nx-violet-700);
-  --md-footer-bg-color: #2b2933;
-  --md-footer-bg-color--dark: var(--nx-grey-900);
+  --md-footer-fg-color: var(--nx-grey-900);
+  --md-footer-fg-color--light: var(--nx-grey-700);
+  --md-footer-fg-color--lighter: var(--nx-grey-500);
+  --md-footer-bg-color: #e0ddea;
+  --md-footer-bg-color--dark: #d6d3e3;
 
   --nx-action: var(--nx-violet-700);
   --nx-action-text: #ffffff;
   --nx-outline: var(--nx-violet-700);
-  --nx-hero-bg: linear-gradient(180deg, var(--nx-lavender-50) 0%, var(--nx-lavender-100) 100%);
-  --nx-hero-border: var(--nx-grey-200);
+  --nx-surface: #faf9fc;
+  --nx-hero-bg: linear-gradient(180deg, #f8f7fb 0%, #ebe8f4 100%);
+  --nx-hero-border: #d9d6e4;
   --nx-hero-text: var(--nx-grey-900);
   --nx-hero-muted: var(--nx-grey-700);
   --nx-card-hover: var(--nx-violet-500);
-  --nx-cta-bg: var(--nx-lavender-50);
-  --nx-photo-ring: var(--nx-lavender-300);
+  --nx-cta-bg: #f8f7fb;
+  --nx-photo-ring: #cfc5e8;
+  --nx-line: #d3d0df;
 }
 
 [data-md-color-scheme="slate"] {
@@ -78,18 +89,23 @@
   --nx-card-hover: #9b84dc;
   --nx-cta-bg: rgba(255, 255, 255, 0.04);
   --nx-photo-ring: #4a4362;
+  --nx-surface: #1f1d28;
+  --nx-line: #353245;
 }
 
 /* ============================================================
-   Masthead — wordmark logo, no duplicate site name on wide screens
+   Masthead — wordmark logo on every page and screen size
    ============================================================ */
 
 .md-header {
-  border-bottom: 1px solid var(--nx-grey-200);
+  border-bottom: 1px solid var(--nx-line);
 }
 
-[data-md-color-scheme="slate"] .md-header {
-  border-bottom-color: #353245;
+/* Material hides the logo on narrow screens; keep it everywhere */
+.md-header__button.md-logo {
+  display: block;
+  margin: 0;
+  padding: 0.35rem 0.4rem;
 }
 
 .md-header__button.md-logo img {
@@ -97,24 +113,30 @@
   width: auto;
 }
 
+/* the wordmark already says "NUTRIx"; keep the site name for screen readers */
+.md-header__topic:first-child .md-ellipsis {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+/* mobile drawer title uses the same logo */
+.md-nav__title .md-nav__button.md-logo img {
+  height: 2rem;
+  width: auto;
+}
+
 /* dark mode: swap in the light-ink wordmark */
-[data-md-color-scheme="slate"] .md-header__button.md-logo {
-  background: url("../assets/nutrix-wordmark-dark.png") center / contain no-repeat;
+[data-md-color-scheme="slate"] .md-header__button.md-logo,
+[data-md-color-scheme="slate"] .md-nav__button.md-logo {
+  background: url("../assets/nutrix-wordmark-dark.png") left center / contain no-repeat;
 }
 
-[data-md-color-scheme="slate"] .md-header__button.md-logo img {
+[data-md-color-scheme="slate"] .md-header__button.md-logo img,
+[data-md-color-scheme="slate"] .md-nav__button.md-logo img {
   visibility: hidden;
-}
-
-@media (min-width: 76.25em) {
-  /* the wordmark already says "NUTRIx"; keep the text for screen readers */
-  .md-header__topic:first-child .md-ellipsis {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-  }
 }
 
 /* ============================================================
@@ -209,7 +231,8 @@
 .md-typeset .grid.cards > ul > li,
 .md-typeset .grid > .card {
   border-radius: 0.6rem;
-  border-color: var(--md-default-fg-color--lightest);
+  border-color: var(--nx-line);
+  background: var(--nx-surface);
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -253,9 +276,9 @@
   align-items: center;
   text-align: center;
   padding: 1.4rem 1rem 1.1rem;
-  border: 1px solid var(--md-default-fg-color--lightest);
+  border: 1px solid var(--nx-line);
   border-radius: 0.6rem;
-  background: var(--md-default-bg-color);
+  background: var(--nx-surface);
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
