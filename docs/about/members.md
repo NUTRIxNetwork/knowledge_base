@@ -3,13 +3,6 @@
 The network comprises postdoctoral fellows, (junior) group leaders, and advanced
 doctoral candidates across nutrition, epidemiology, and data science.
 
-!!! note "Adding your photo and details"
-    Photos are placeholders. To add yours, drop a square image (JPG or PNG,
-    ~400×400 px) into `docs/assets/members/` named after your surname — for
-    example `mueller.jpg` — and it appears automatically. ORCID iDs were filled
-    in from public records where they could be matched with confidence; please
-    correct any that are wrong, add the two that are missing, and add a short bio
-    and links (website, GitHub/GitLab) by editing this page.
 
 ## Coordinators
 
@@ -20,6 +13,7 @@ doctoral candidates across nutrition, epidemiology, and data science.
   <div class="nx-member__name">Dr. Mattea Müller</div>
   <div class="nx-member__affil">Peter L. Reichertz Institute for Medical Informatics, Hannover Medical School (MHH)</div>
   <div class="nx-member__interests">Co-coordinator. Microbiome, metabolome, precision nutrition; liaison to the ELIXIR Food &amp; Nutrition Community.</div>
+  <div class="nx-member__interests">mueller.mattea@mh-hannover.de </div>
   <div class="nx-member__links"><a href="https://orcid.org/0000-0002-3340-5122" rel="noopener"><img src="../../assets/orcid.svg" alt="">0000-0002-3340-5122</a></div>
 </div>
 
@@ -28,6 +22,7 @@ doctoral candidates across nutrition, epidemiology, and data science.
   <div class="nx-member__name">Dr. Fabian Eichelmann</div>
   <div class="nx-member__affil">Department of Molecular Epidemiology, German Institute of Human Nutrition Potsdam-Rehbrücke (DIfE)</div>
   <div class="nx-member__interests">Co-coordinator. Multi-omics in cardiometabolic research, disease prediction and risk stratification, biomarker discovery, cross-study omics integration.</div>
+    <div class="nx-member__interests">fabian.eichelmann@dife.de </div>
   <div class="nx-member__links"><a href="https://orcid.org/0000-0002-3975-5596" rel="noopener"><img src="../../assets/orcid.svg" alt="">0000-0002-3975-5596</a></div>
 </div>
 
