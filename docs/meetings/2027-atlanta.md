@@ -2,10 +2,10 @@
 
 | | |
 |---|---|
-| **When** | 2027 (dates to be confirmed) |
+| **When** | 10 - 15 May 2027 |
 | **Where** | Joachim Herz House, Atlanta, USA |
-| **Host coordinator** | Prof. Tilman Kühn |
-| **Open days** | Days 1–2 open to the wider community; day 3 is a network working day |
+| **Host coordinator** | Daniel Kirk, Sander Jannsen, Jan Voges, Mattea Müller |
+| **Open days** | Days 1–3 |
 
 Held together with trainees from the **NIH Precision Nutrition Training
 Programme** for transatlantic exchange and alignment of methodological standards.
