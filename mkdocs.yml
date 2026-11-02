@@ -17,8 +17,8 @@ copyright: >-
 theme:
   name: material
   language: en
-  logo: assets/nutrix-mark-light.svg
-  favicon: assets/nutrix-mark.svg
+  logo: assets/nutrix-wordmark.png
+  favicon: assets/favicon.png
   font:
     text: Atkinson Hyperlegible
     code: Roboto Mono

@@ -6,7 +6,8 @@ hide:
 
 <div class="nx-hero" markdown>
 
-![NUTRIx — Network for Computational Nutrition Science](assets/nutrix-logo-light.svg){ .nx-hero__logo }
+![NUTRIx — Network for Computational Nutrition Science](assets/nutrix-logo.png#only-light){ .nx-hero__logo }
+![NUTRIx — Network for Computational Nutrition Science](assets/nutrix-logo-dark.png#only-dark){ .nx-hero__logo }
 
 
 # Computational methods for nutrition science, built in the open

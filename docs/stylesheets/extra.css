@@ -1,46 +1,148 @@
 /* ============================================================
-   NUTRIx brand — colours taken from the logo
-   navy  #1a3a5c   teal  #2c9aa0   coral  #e8623d
+   NUTRIx — calm purple & grey palette
+   Logo purple  #7800ff   (accent only: hover, focus, thin rules)
+   Deep violet  #4f3a82   (links, buttons — calmer than the logo purple)
+   Neutral greys are tinted slightly towards violet.
    ============================================================ */
 
 :root {
-  --nx-navy: #1a3a5c;
-  --nx-navy-light: #2f5578;
-  --nx-navy-dark: #12293f;
-  --nx-teal: #2c9aa0;
-  --nx-teal-dark: #1f7379;
-  --nx-coral: #e8623d;
-  --nx-coral-dark: #c94f2e;
-  --nx-sand: #f6f4ef;
+  --nx-purple: #7800ff;
+  --nx-violet-900: #2e2347;
+  --nx-violet-700: #4f3a82;
+  --nx-violet-500: #7a62b8;
+  --nx-lavender-300: #cfc5e8;
+  --nx-lavender-100: #f1eff8;
+  --nx-lavender-50: #f7f6fb;
+
+  --nx-grey-900: #23212b;
+  --nx-grey-700: #4a4856;
+  --nx-grey-500: #7a7886;
+  --nx-grey-300: #c9c8d2;
+  --nx-grey-200: #e4e3ea;
+  --nx-grey-100: #f1f0f5;
 }
 
 [data-md-color-scheme="default"] {
-  --md-primary-fg-color: var(--nx-navy);
-  --md-primary-fg-color--light: var(--nx-navy-light);
-  --md-primary-fg-color--dark: var(--nx-navy-dark);
-  --md-primary-bg-color: #ffffff;
-  --md-primary-bg-color--light: rgba(255, 255, 255, 0.7);
+  /* white masthead so the logo shows in its original colours */
+  --md-primary-fg-color: #ffffff;
+  --md-primary-fg-color--light: #ffffff;
+  --md-primary-fg-color--dark: #f1f0f5;
+  --md-primary-bg-color: var(--nx-grey-700);
+  --md-primary-bg-color--light: rgba(74, 72, 86, 0.7);
 
-  --md-accent-fg-color: var(--nx-coral);
-  --md-accent-fg-color--transparent: rgba(232, 98, 61, 0.1);
+  --md-accent-fg-color: var(--nx-purple);
+  --md-accent-fg-color--transparent: rgba(120, 0, 255, 0.08);
 
-  --md-typeset-a-color: var(--nx-teal-dark);
+  --md-typeset-a-color: var(--nx-violet-700);
+  --md-footer-bg-color: #2b2933;
+  --md-footer-bg-color--dark: var(--nx-grey-900);
+
+  --nx-action: var(--nx-violet-700);
+  --nx-action-text: #ffffff;
+  --nx-outline: var(--nx-violet-700);
+  --nx-hero-bg: linear-gradient(180deg, var(--nx-lavender-50) 0%, var(--nx-lavender-100) 100%);
+  --nx-hero-border: var(--nx-grey-200);
+  --nx-hero-text: var(--nx-grey-900);
+  --nx-hero-muted: var(--nx-grey-700);
+  --nx-card-hover: var(--nx-violet-500);
+  --nx-cta-bg: var(--nx-lavender-50);
+  --nx-photo-ring: var(--nx-lavender-300);
 }
 
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: var(--nx-navy-dark);
-  --md-primary-fg-color--light: var(--nx-navy-light);
-  --md-primary-fg-color--dark: #0d1f30;
-  --md-accent-fg-color: var(--nx-coral);
-  --md-accent-fg-color--transparent: rgba(232, 98, 61, 0.15);
-  --md-typeset-a-color: #57c4c9;
+  --md-hue: 265;
+  --md-default-bg-color: hsl(265, 10%, 13%);
+  --md-default-bg-color--light: hsla(265, 10%, 13%, 0.54);
+  --md-default-bg-color--lighter: hsla(265, 10%, 13%, 0.26);
+  --md-default-bg-color--lightest: hsla(265, 10%, 13%, 0.07);
+
+  --md-primary-fg-color: #1d1b26;
+  --md-primary-fg-color--light: #2a2736;
+  --md-primary-fg-color--dark: #16141d;
+  --md-primary-bg-color: #ecebf2;
+  --md-primary-bg-color--light: rgba(236, 235, 242, 0.7);
+
+  --md-accent-fg-color: #c3a6ff;
+  --md-accent-fg-color--transparent: rgba(195, 166, 255, 0.12);
+  --md-typeset-a-color: #b9a3f0;
+  --md-footer-bg-color: #1d1b26;
+  --md-footer-bg-color--dark: #16141d;
+
+  --nx-action: #6a4fc0;
+  --nx-action-text: #ffffff;
+  --nx-outline: #c6b4f5;
+  --nx-hero-bg: linear-gradient(180deg, #25222f 0%, #1d1b26 100%);
+  --nx-hero-border: #353245;
+  --nx-hero-text: #f1f0f7;
+  --nx-hero-muted: #c9c7d6;
+  --nx-card-hover: #9b84dc;
+  --nx-cta-bg: rgba(255, 255, 255, 0.04);
+  --nx-photo-ring: #4a4362;
 }
 
-/* Header logo a touch larger, like a book masthead */
-.md-header__button.md-logo img,
-.md-header__button.md-logo svg {
-  height: 1.9rem;
+/* ============================================================
+   Masthead — wordmark logo, no duplicate site name on wide screens
+   ============================================================ */
+
+.md-header {
+  border-bottom: 1px solid var(--nx-grey-200);
+}
+
+[data-md-color-scheme="slate"] .md-header {
+  border-bottom-color: #353245;
+}
+
+.md-header__button.md-logo img {
+  height: 1.7rem;
   width: auto;
+}
+
+/* dark mode: swap in the light-ink wordmark */
+[data-md-color-scheme="slate"] .md-header__button.md-logo {
+  background: url("../assets/nutrix-wordmark-dark.png") center / contain no-repeat;
+}
+
+[data-md-color-scheme="slate"] .md-header__button.md-logo img {
+  visibility: hidden;
+}
+
+@media (min-width: 76.25em) {
+  /* the wordmark already says "NUTRIx"; keep the text for screen readers */
+  .md-header__topic:first-child .md-ellipsis {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+  }
+}
+
+/* ============================================================
+   Buttons (the masthead is white, so don't borrow its colour)
+   ============================================================ */
+
+.md-typeset .md-button {
+  color: var(--nx-outline);
+  border-color: var(--nx-outline);
+  border-radius: 0.3rem;
+}
+
+.md-typeset .md-button--primary {
+  background-color: var(--nx-action);
+  border-color: var(--nx-action);
+  color: var(--nx-action-text);
+}
+
+.md-typeset .md-button:hover,
+.md-typeset .md-button:focus {
+  background-color: var(--md-accent-fg-color);
+  border-color: var(--md-accent-fg-color);
+  color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .md-button:hover,
+[data-md-color-scheme="slate"] .md-typeset .md-button:focus {
+  color: #1d1b26;
 }
 
 /* ============================================================
@@ -49,86 +151,75 @@
 
 .nx-hero {
   text-align: center;
-  padding: 3.2rem 1.5rem 2.6rem;
-  border-radius: 1rem;
+  padding: 2.8rem 1.5rem 2.4rem;
+  border: 1px solid var(--nx-hero-border);
+  border-radius: 0.8rem;
   margin: 0 0 2.6rem;
-  background:
-    radial-gradient(circle at 15% 20%, rgba(44, 154, 160, 0.30), transparent 45%),
-    radial-gradient(circle at 85% 15%, rgba(232, 98, 61, 0.22), transparent 40%),
-    linear-gradient(160deg, var(--nx-navy) 0%, var(--nx-navy-dark) 100%);
-  color: #fff;
+  background: var(--nx-hero-bg);
+  color: var(--nx-hero-text);
 }
 
 .nx-hero img {
-  width: min(420px, 74%);
+  width: min(440px, 80%);
   height: auto;
-  margin: 0 auto 0.6rem;
+  margin: 0 auto 1.4rem;
 }
 
 .md-typeset .nx-hero h1 {
-  color: #fff;
-  font-weight: 800;
-  font-size: clamp(1.8rem, 1.1rem + 2.6vw, 2.6rem);
-  line-height: 1.15;
+  color: var(--nx-hero-text);
+  font-weight: 700;
+  font-size: clamp(1.6rem, 1.1rem + 2vw, 2.2rem);
+  line-height: 1.2;
   letter-spacing: -0.01em;
-  max-width: 22ch;
-  margin: 0.4rem auto 0.6rem;
+  max-width: 24ch;
+  margin: 0.4rem auto 0.8rem;
 }
 
 .md-typeset .nx-hero p {
   max-width: 44rem;
   margin: 0 auto 1.4rem;
-  font-size: 1.05rem;
-  color: rgba(255, 255, 255, 0.92);
+  font-size: 1.02rem;
+  color: var(--nx-hero-muted);
 }
 
 .nx-hero .nx-tagline {
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 0.74rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   padding: 0.25rem 0.8rem;
-  border: 1px solid rgba(255, 255, 255, 0.4);
+  border: 1px solid var(--nx-grey-300);
   border-radius: 2rem;
+  color: var(--nx-hero-muted);
   margin-bottom: 1rem;
+}
+
+[data-md-color-scheme="slate"] .nx-hero .nx-tagline {
+  border-color: #4a4362;
 }
 
 .md-typeset .nx-hero .md-button {
   margin: 0.3rem;
-  border-color: #fff;
-  color: #fff;
-}
-
-.md-typeset .nx-hero .md-button--primary {
-  background: #fff;
-  color: var(--nx-navy);
-}
-
-.md-typeset .nx-hero .md-button:hover {
-  background: var(--nx-coral);
-  border-color: var(--nx-coral);
-  color: #fff;
 }
 
 /* ============================================================
-   Cards / grid — friendlier, book-like
+   Cards / grid
    ============================================================ */
 
 .md-typeset .grid.cards > ul > li,
 .md-typeset .grid > .card {
-  border-radius: 0.7rem;
+  border-radius: 0.6rem;
   border-color: var(--md-default-fg-color--lightest);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .md-typeset .grid.cards > ul > li:hover {
-  border-color: var(--nx-teal);
-  box-shadow: 0 0.4rem 1rem rgba(26, 58, 92, 0.12);
-  transform: translateY(-2px);
+  border-color: var(--nx-card-hover);
+  box-shadow: 0 0.3rem 0.9rem rgba(46, 35, 71, 0.1);
 }
 
 .md-typeset .grid.cards > ul > li > hr {
-  border-bottom-color: var(--nx-teal);
+  border-bottom-color: var(--nx-lavender-300);
 }
 
 /* Section lead-ins */
@@ -137,16 +228,12 @@
   color: var(--md-default-fg-color--light);
 }
 
-/* Registration call-to-action block on the meetings page */
+/* Registration call-to-action block on the meetings pages */
 .nx-cta {
-  border-left: 4px solid var(--nx-coral);
-  background: var(--nx-sand);
+  border-left: 4px solid var(--nx-purple);
+  background: var(--nx-cta-bg);
   padding: 1rem 1.2rem;
   border-radius: 0.4rem;
-}
-
-[data-md-color-scheme="slate"] .nx-cta {
-  background: rgba(255, 255, 255, 0.04);
 }
 
 /* ============================================================
@@ -167,15 +254,14 @@
   text-align: center;
   padding: 1.4rem 1rem 1.1rem;
   border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: 0.8rem;
+  border-radius: 0.6rem;
   background: var(--md-default-bg-color);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .md-typeset .nx-member:hover {
-  border-color: var(--nx-teal);
-  box-shadow: 0 0.4rem 1rem rgba(26, 58, 92, 0.12);
-  transform: translateY(-2px);
+  border-color: var(--nx-card-hover);
+  box-shadow: 0 0.3rem 0.9rem rgba(46, 35, 71, 0.1);
 }
 
 .md-typeset .nx-member img {
@@ -184,7 +270,7 @@
   border-radius: 50%;
   object-fit: cover;
   background: var(--md-default-fg-color--lightest);
-  border: 3px solid var(--nx-teal);
+  border: 3px solid var(--nx-photo-ring);
   margin-bottom: 0.8rem;
 }
 
@@ -226,7 +312,7 @@
 }
 
 .md-typeset .nx-member__links a:hover {
-  color: var(--nx-teal-dark);
+  color: var(--md-accent-fg-color);
 }
 
 .md-typeset .nx-member__links img {
