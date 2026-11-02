@@ -350,3 +350,16 @@
 .nx-member__links .nx-tba {
   color: var(--md-default-fg-color--lighter);
 }
+
+/* name links to the institutional profile; email rows */
+.md-typeset .nx-member__name a {
+  color: inherit;
+}
+
+.md-typeset .nx-member__name a:hover {
+  color: var(--md-accent-fg-color);
+}
+
+.md-typeset .nx-member__links a[href^="mailto:"] {
+  overflow-wrap: anywhere;
+}
